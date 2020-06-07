@@ -1,0 +1,10 @@
+Return an int array length 3 containing the first 3 digits of pi, {3, 1, 4}.
+
+
+function makePi(pie){
+  var pie = [3,1,4];
+  var piearr = Math.round(pie);
+  return piearr.toString(piearr).split('').map(Number);
+  
+  
+}
